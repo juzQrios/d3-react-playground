@@ -1,0 +1,10 @@
+.references {
+  margin: 20px 0;
+}
+
+@media (min-width: 1200px) {
+  .chart {
+    width: 50%;
+  }
+}
+

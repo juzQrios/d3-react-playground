@@ -4,7 +4,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Home';
-import Bar1 from './Charts/Bar1'
+import Bar1 from './charts/Bar1'
 import './App.css';
 
 function App() {

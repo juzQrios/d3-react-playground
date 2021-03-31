@@ -1,0 +1,22 @@
+.PageTemplate .page-title {
+  text-align: center;
+}
+
+.PageTemplate > nav {
+  margin-top: 20px;
+}
+
+.PageTemplate > nav > a {
+  text-decoration: none;
+}
+
+.PageTemplate {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .PageTemplate {
+    width: 90%;
+  }
+}
