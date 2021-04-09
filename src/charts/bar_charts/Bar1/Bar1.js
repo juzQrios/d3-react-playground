@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 import React from 'react';
 import './Bar1.css';
-import PageTemplate from '../utils/PageTemplate';
+import PageTemplate from '../../../utils/PageTemplate';
 
 class Bar1 extends React.Component {
   constructor(props) {

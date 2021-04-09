@@ -13,7 +13,7 @@ const Home = (props) => {
             <Link to="/">Home</Link>
           </li> */}
           <li>
-            <Link to="/bar-chart">Bar Chart</Link>
+            <Link to="/bar1">Bar1</Link>
           </li>
         </ul>
       </nav>

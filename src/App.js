@@ -4,7 +4,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Home';
-import Bar1 from './charts/Bar1'
+import Bar1 from './charts/bar_charts/Bar1/Bar1'
 import './App.css';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
             {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
             <Switch>
-              <Route path="/bar-chart">
+              <Route path="/bar1">
                 <Bar1 />
               </Route>
               <Route exact path="/">
