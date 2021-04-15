@@ -13,7 +13,15 @@ const Home = (props) => {
             <Link to="/">Home</Link>
           </li> */}
           <li>
-            <Link to="/bar1">Bar1</Link>
+            <Link to="/bar">Bar Charts</Link>
+            <ul>
+              <li>
+                <Link to="/bar/1">Bar 1</Link>
+              </li>
+              <li>
+                <Link to="/bar/2">Bar 2</Link>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>

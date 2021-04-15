@@ -43,14 +43,6 @@ class Bar1 extends React.Component {
   render() {
     return (
       <PageTemplate className="Bar1" title="Bar1">
-        <div className="references">
-          <div>
-            <a href="https://observablehq.com/@d3/lets-make-a-bar-chart" target="_blank">Let's make a bar chart @observable</a>
-          </div>
-          <div>
-            <a href="https://medium.com/@louisemoxy/a-simple-way-to-make-d3-js-charts-svgs-responsive-7afb04bc2e4b" target="_blank">Simple way to make d3js charts responsive</a>
-          </div>
-        </div>
         <div className="chart" ref={this.chart}></div>
       </PageTemplate>
     );
